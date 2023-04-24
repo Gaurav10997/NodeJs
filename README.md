@@ -48,7 +48,9 @@ Node.js runs single-threaded, non-blocking, asynchronous programming, which is v
 - Node.js files must be initiated on the server before having any effect
 - Node.js files have extension ".js"
 
-# - [ ] NODEJS - CALCULATOR
+# **MUST DO ASSIGMENTS IN NODEJS**
+
+## NODEJS - CALCULATOR
 
 - Create an argument based calculator in nodejs
 - the code takes arguments from terminal and then depending on arguments gives output
@@ -58,7 +60,7 @@ Node.js runs single-threaded, non-blocking, asynchronous programming, which is v
 - eg `node index.js random` will just generate random number for you
 - use `crypto` module to generate random number. you can also decide to get length from args
 
-# - [ ] NODEJS - FILE EDITOR
+## NODEJS - FILE EDITOR
 
 - create a simple nodejs program to edit files, based on arguments passed.
 - the program will support basic file reading, deleting, creating and appending operations
@@ -69,7 +71,7 @@ Node.js runs single-threaded, non-blocking, asynchronous programming, which is v
 - `rename test.txt new.txt` will rename the file
 - `list .` will list everything in current directory. (other paths should also support)
 
-# \* [ ] NODEJS - FILE SERVER
+## NODEJS - FILE SERVER
 
 - Create a file server in nodejs using `http`
 - when user visits site, he should see the list of all files and folders in current directory
@@ -88,7 +90,7 @@ PART 2:
 - in backend handle `/public` route dynamically it cannot be hardcoded.
 - hint: you can change request structure like `/api/public` will ask for contents of public directory etc. just to know which request is for data and which request is for frontend etc
 
-# - [ ] NODEJS - BENCHMARKING
+## NODEJS - BENCHMARKING
 
 - create a basic http nodejs server with following routes
 - have a large at least 1mb of a text file
@@ -107,7 +109,7 @@ Part 2:
 - create a one more route `/textpromise`, which uses `fs/promise` module to read file
 - observe the benchmarks
 
-# \* [ ] EXPRESS - TODO CRUD
+## EXPRESS - TODO CRUD
 
 - Create a TODO API server in express
 - Use any frontend you want, either some TODO frontend you created with React or API testing tools like Postman etc
@@ -123,7 +125,7 @@ Please note :
 2. You can solve both questions in the same app, no need to create two different apps.
 3. Don't forget to add `app.use(express.json())` in your express server (even if you haven't learnt it yet)
 
-# \* [ ] EXPRESS - VALIDATION MIDDLEWARE
+## EXPRESS - VALIDATION MIDDLEWARE
 
 - create a custom validation middleware for express
 - the middleware should check for data validation before request reaches to routes
@@ -139,7 +141,7 @@ Please note :
 - if they exist check if they are correct type or not.
 - If some data is incorrect, the status code for bad request is 400. send that
 
-# \* [ ] EXPRESS - FILE UPLOADER
+## EXPRESS - FILE UPLOADER
 
 - when you upload a file, it goes as a special type of request known as `multipart/formdata`
 - You cannot upload a file as a json.
@@ -163,7 +165,7 @@ Hint:
 
 then Multer can easily access this file with `multer.single('avatar')`.
 
-# \* [ ] EXPRESS - LOGGER MIDDLEWARE
+## EXPRESS - LOGGER MIDDLEWARE
 
 - Configure a middleware called as 'morgan' for express
 - Look for docs to learn how to configure it
